@@ -1,0 +1,231 @@
+
+body {font-family: Arial, Helvetica, sans-serif;background-color: rgb(20, 51, 214);padding: 0;}
+form {border: 0px solid #f1f1f1; border-radius:8px}
+h3{
+    font-weight:bold;
+    color:white;
+    font-size:25px;
+    text-decoration: none;
+   
+}
+.cartsection{
+    width: 100%; 
+     padding: 0;
+     margin:0 !important; 
+     height:70vh;
+     background-color: white;}
+
+ .cart{
+    width:80%;
+    margin: auto;
+    height: 85px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    
+ }  
+
+ .cartcover{
+    width:90% ;
+    background-color: whitesmoke;
+    height:60px;
+ }
+ 
+ .cartdesc{
+    width:70%;
+    padding:5px;
+    background-color: whitesmoke;
+    float: left;
+    height: 80px;
+    margin-bottom: 2px;
+ }
+ .delcart{
+   width:9%;
+    padding-top:44px;
+    padding-left:20px;
+    
+    float: left;
+    height: 80px;
+
+ }
+
+ .leftcartdesc{
+  width:33% ;
+  float:left;
+ }
+ .reftcartdesc{
+    width:60%;
+    float:left;
+    background-color: whitesmoke;
+
+ }
+ .total{
+    width:80%;
+    background-color: rgb(232, 239, 236);
+    margin: auto;
+ }
+
+ .totalleft{
+    width: 50%;
+    float: left;
+ }
+ .totalright{
+    width: 50%;
+    float: left;
+    text-align: right;
+
+ }
+
+ .cartprice{
+    width:20%;
+    padding:5px;
+    text-align: right;
+    background-color:whitesmoke;
+    float: left;
+    height: 80px;
+    margin-bottom: 2px;
+ }
+
+ .divider{
+    width:100%;
+    height: 15px;
+    background-color: white;
+    clear:both
+  }
+   
+  .logo{
+    width: 100%; 
+    padding-bottom: 20px;
+  } 
+
+   
+.loginform{ width: 30%; margin: auto;   background-color:white;}
+
+ 
+
+
+.buttons {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+ border-radius: 1px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.topheader{
+    text-align: center;font-weight:300;
+     color: whitesmoke;
+     margin-bottom: 8px;
+     font-size: 18px; 
+}
+
+
+.container {
+  padding: 16px;
+
+
+}
+
+
+.paycont{
+ width: 100%;
+ background-color: whitesmoke;
+}
+ 
+.payinner{
+
+ width: 80%;
+ background-color:white;
+ margin:auto;
+
+}
+.payshipping{
+   width: 68%;
+   background-color: whitesmoke; 
+   float:left;
+   margin-right:4px;
+   border-radius:4px;
+   padding: 10px
+}
+
+.paytotal{
+   width: 30%;
+   background-color: whitesmoke; 
+   float:left;
+   text-align: right;
+   padding: 20px;
+
+}
+
+.profile{
+   width: 100%;
+   background-color: white; 
+
+}
+
+.proinner{
+   width: 90%;
+   background-color: whitesmoke; 
+   height: 90px;
+   margin: auto;
+   padding-bottom:20px
+
+}
+.foot1{
+   font-size:16px; font-family: Arial, Helvetica, sans-serif;
+   margin:6px 0px 14px;
+   font-weight:bold;text-align: justify;
+
+ }
+
+ .foot2{
+   font-size:14px; 
+   font-family: Arial, Helvetica, sans-serif;
+   margin:0px 0px 10px;
+   text-align: justify;
+ }
+
+ .foot1:hover{
+   font-size:17px;
+   cursor: pointer;
+ }
+ .foot2:hover{
+   font-size:15px ;
+   cursor: pointer;
+ }
+
+ .foot3{
+   font-size:13px; 
+   font-family: Arial, Helvetica, sans-serif;
+   margin:0px 0px 10px;
+   text-align: justify;
+ }
+ .footer{
+   background-color:black;
+   padding: 100px;
+   text-align: center;
+   color: #f1f1f1;
+ 
+ }
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+
+
+      .nuser{ width:100%; margin:0px; display: inline-block;}
+
+}
+

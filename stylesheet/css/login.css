@@ -1,0 +1,132 @@
+
+body {font-family: Arial, Helvetica, sans-serif;background-color: whitesmoke}
+form {border: 0px solid #f1f1f1; border-radius:8px}
+h3{
+    font-weight:bold;
+    color:white;
+    font-size:25px;
+    text-decoration: none;
+}
+.loginpage{
+    width: 100%; 
+     padding-top: 6%; 
+     margin:0px !important; 
+     background-color: whitesmoke;
+     padding-bottom: 6%;
+     
+   }
+  .logo{
+    width: 100%; 
+  } 
+
+   
+.loginform{ width: 30%; margin: auto;   background-color:white;}
+
+ 
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Modal Content/Box */
+.contents {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 35%; /* Could be more or less, depending on screen size */
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  padding-top: 8px;
+  color:#BEBEBE;
+
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+
+
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+label.error.fail-alert {
+border: 1px solid red;
+border-radius: 2px;
+line-height: 1;
+background: #ffe6eb;
+}
+input.valid.success-alert {
+border: 2px solid #4CAF50;
+color: green;
+}
+
+
+.nusercon{ width: 100%; height:auto;   }
+.nuser{width: 80%; margin: auto; padding-top: 20px;;letter-spacing:2px ;font-size: 13px; }
+.nuser a{ font-size: 14px; font-weight: bolder; text-decoration: none; }
+.nuser a:hover{border-style:solid; border-width: thin; color: darkorange;border-left: none;border-right: none; border-top: none;  }
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 460px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+   
+
+      .nuser{ width:100%; margin:0px; display: inline-block;}
+      .loginform{ width: 100%;} 
+}
+
+
+@media screen and (max-width: 760px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+   
+
+      .nuser{ width:100%; margin:0px; display: inline-block;}
+      .loginform{ width: 70%;} 
+}

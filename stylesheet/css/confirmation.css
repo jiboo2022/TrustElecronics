@@ -1,0 +1,121 @@
+body {font-family: Arial, Helvetica, sans-serif;background-color: whitesmoke}
+form {border: 0px solid #f1f1f1; border-radius:8px}
+h3{
+    font-weight:bold;
+    color:white;
+    font-size:25px;
+    text-decoration: none;
+}
+
+.toplogo{
+  text-decoration:none;
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+}
+.loginpage{
+    width: 100%; 
+     padding-top: 6%; 
+     margin:0px !important; 
+     background-color:whitesmoke;
+     padding-bottom: 6%;
+     
+   }
+  .logo{
+    width: 100%; 
+  } 
+  .container {
+    width: 100%; margin: auto;
+    padding: 16px;
+    background-color:white;
+  }
+  .imgcontainer {
+    text-align: center;
+    padding-top: 14px;
+    color:#BEBEBE;
+    clear: both;
+  
+  } 
+
+  .buttop{
+    width:90%;
+    margin:auto;
+  }
+  button {
+    background-color:rgb(20, 51, 214);
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  .topverifybut{
+    width:80%;
+     margin:auto;
+     text-align: center;
+  }
+
+  .verifybut{
+    width:50px;
+    height:50px;
+    border: 1px solid  gainsboro;
+    color:black;
+    margin-left:12px; border-radius: 2px;
+    background-color: #BEBEBE;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    padding:12px
+  }
+
+   
+.loginform{ width:35%; margin: auto; background-color:white; border-radius: 2px; padding:0}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 430px) {
+    
+    .loginform{ width:90%}
+    .container {
+      padding:0px
+    }
+    .imgcontainer{ width:90%; margin-bottom: 8px;}
+    .verifybut{
+      width:15%;
+      border: 1px solid  gainsboro;
+      color:black;
+      margin-left:2px; border-radius: 2px;
+      background-color: #BEBEBE;
+      text-align: center;
+      font-weight: 900;
+      font-size: 10px;
+      padding:5px
+    }
+    
+  
+  }
+
+  /* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 1016px) {
+    
+  .loginform{ width:90%}
+  .container {
+    padding:0px
+  }
+  .imgcontainer{ width:90%}
+  .verifybut{
+    width:15%;
+    border: 1px solid  gainsboro;
+    color:black;
+    margin-left:2px; border-radius: 2px;
+    background-color: #BEBEBE;
+    text-align: center;
+    font-weight: 900;
+    font-size: 10px;
+    padding:5px
+  }
+  
+
+}
+  
